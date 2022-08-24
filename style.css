@@ -1,0 +1,192 @@
+/* This has the entirety of the background with all its stuffs */
+
+/* body{ */
+    /* background-color: blue; */
+    /* its gives color to the background */
+    /* opacity: 0.3; */
+    /* plays an important role in transperancy */
+    /* background-image: url('madara.jfif'); */
+    /* gives background image to the scaffold usually repeated */
+    /* usually background holds properties like background repeat as well as in wat direction and positiion */
+    /* background-repeat: no-repeat; */
+    /* This usually removes the repeating stuffs */
+    /* background-repeat: repeat-x; */
+    /* This helps in repeating stuffs only in one direction */
+    /* background-position: right; */
+    /* helps in placing image where ever we wanna to */
+    /* background-attachment: fixed; */
+    /* this fixes the background */
+    /* background-attachment: scroll; */
+    /* for scrolling */
+    /* background: #fff url('three.jfif') no-repeat; */
+    /* everything can be written in short hand */
+/* } */
+/* border */
+/* h1{ */
+    /* border-style: dotted; */
+    /* the style for border can be given using this */
+    /* border-width: 10px 20px; */
+    /* after styling we can specify the width of the given component */
+    /* border-color: blue green; */
+    /* size of the border can also be mentioned */
+    /* border: 20px solid red; */
+    /* short hand can be used */
+    /* border-radius: 20px; */
+    /* used in rounding the stuffs */
+/* } */
+
+/* margin */
+/* p{ */
+    /* margin: 200px 30px; */
+    /* margin is something outside we can use it in short hand or specify it accordingly */
+
+    /* margin: auto; */
+    /* jst centers everything */
+
+/* } */
+/* padding */
+/* this is something within the elements */
+/* p{
+    padding: 100px 10px ;
+} */
+
+/* height width property helps to set the height and width of the stuffs */
+/* div{
+    height: 200px;
+    max-width: 500px;
+    background-color: aqua;
+} */
+
+/* Outline is something drawn outside the border */
+/* p{
+    border: 10px solid black;
+    outline: 20px solid red;
+    outline-offset: 20px;
+} */
+
+/* Text  */
+/* The text can be formatted in different different ways */
+/* h1{ */
+    /* text-align: center; */
+    /* helps in aligning stuffs in a center */
+    /* text-align: justify; */
+    /* text usually has equal space` */
+    /* text-align-last: right; */
+    /* we can change the direction */
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    /* vertical-align: text-top; */
+/* } */
+/* textdecoration can be done in various different styles */
+/* h1{ */
+    /* /* text-decoration-line: line-through; */
+    /* text-decoration-line: underline; 
+    text-decoration-color: blue;
+    text-decoration-thickness: 10px; */
+/* } */
+/* text can be transformed from onecase to another */
+/* h1{
+    text-transform: lowercase;
+    text-transform: uppercase;
+} */
+/* spacing properties */
+/* h1{ */
+    /* text-indent: 30px; */
+    /* specifies first line indentation */
+    /* line-height: 100px; */
+    /* word-spacing: 30px; */
+    /* space between words */
+    /* text-shadow: 2px 2px; */
+/* } */
+
+/* h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+} */
+/* a:link{
+    color: aquamarine;
+}
+a:hover{
+    color: burlywood;
+} */
+
+/* styling a list */
+/* ul.b{ */
+    /* list-style-type: lower-greek; */
+    /* list-style-position: outside; */
+/* } */
+/* ul.d{ */
+    /* list-style-type: decimal; */
+    /* list-style-image: url('madara.jfif'); */
+/* } */
+/* table can be styled for there hovering and other properties */
+/* table, th, td{
+    border: 2px solid;
+    width: 100%;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: darkgreen;
+} */
+/* every element has its own display
+The display says how well the image has to be displayed whether inline or block or inline block
+usually display none displays nothing but its used with java script */
+/* li{
+    display: none;
+} */
+
+/* css position -  */
+/* static - css are static by default they don't undergo anything like top bottom anol */
+/* relative  */
+/* An element is positioned according its normal position */
+/* h1{
+    position: relative;
+    left: 200px;
+} */
+/* h1{
+    position: absolute;
+    left: 200px;
+} */
+/* Z index can be used to stack the order of the element */
+/* css overflow  */
+/* plays an important role with the content whether its should be shown or not */
+/* float */
+/* using float elements are made to float left or r8 accordingly */
+/* clear plays a role by adding the float along with input */
+/* display inline using this we can set width as well as padding */
+/* h1{
+    display: inline-block;
+    width: 100px;
+} */
+/* 
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
+ul{
+    list-style-type: none;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+body{
+    counter-reset: section;
+}
+h2::before{
+    counter-increment: section;
+    
+}
